@@ -3,6 +3,12 @@ body {
   color: rgb(33, 33, 33);
 }
 
+:root{
+    --main-color: rgb(33, 150, 243) ;
+    --second-color: #212121;
+    --third-color: #757575
+}
+
 .link-header,
 .link-footer {
   text-decoration: none;
@@ -12,7 +18,7 @@ body {
 .link-header:hover,
 .link-header:focus .link-footer:hover,
 .link-footer:focus {
-  color: rgb(33, 150, 243);
+  color: var(--main-color);
 }
 
 .button {
@@ -27,7 +33,7 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color: rgb(33, 150, 243);
+  background-color: var(--main-color);
 }
 
 .logo-txt {
@@ -61,7 +67,7 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--third-color);
 }
 
 h5 {
@@ -69,7 +75,7 @@ h5 {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--second-color);
 }
 
 .member > h5 {
@@ -79,7 +85,7 @@ h5 {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--second-color);
 }
 
 .member > p {
@@ -88,7 +94,7 @@ h5 {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--third-color);
 }
 
 h1 {
@@ -113,7 +119,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--second-color);
 }
 
 h4 {
@@ -123,12 +129,12 @@ h4 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--second-color) ;
 }
 
 .descriptions > ul > li > p {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--third-color);
 }
