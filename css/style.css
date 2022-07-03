@@ -64,12 +64,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.project-txt {
+/* .project-txt {
   width: 322px;
   height: 70px;
   left: 239px;
   top: 576px;
-}
+} */
 
 .project > p {
   font-size: 16px;
