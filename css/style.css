@@ -10,11 +10,10 @@ body {
   --third-color: #757575;
 }
 
-.logo-txt-blue{
-    text-decoration: none;
-    color: var(--main-color);
+.logo-txt-blue {
+  text-decoration: none;
+  color: var(--main-color);
 }
-
 
 .link-header,
 .link-footer {
@@ -23,7 +22,8 @@ body {
 }
 
 .link-header:hover,
-.link-header:focus .link-footer:hover,
+.link-header:focus,
+.link-footer:hover,
 .link-footer:focus {
   color: var(--main-color);
 }
@@ -40,42 +40,43 @@ body {
   cursor: pointer;
 }
 
-.main-button{
-background-color: var(--main-color);
+.main-button {
+  background-color: var(--main-color);
   width: 200px;
-height: 50px;
-left: 700px;
-top: 460px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  height: 50px;
+  left: 700px;
+  top: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   cursor: pointer;
   border: none;
 
- font-weight: 700;
-font-size: 16px;
-line-height: 1.875;
-position: absolute;
-text-align: center;
-letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0.06em;
 
-color: #FFFFFF; 
+  color: #ffffff;
 }
 
 .button:hover,
 .button:focus {
   background-color: var(--main-color);
   color: white;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.banner{
+.banner {
   width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 
-/* position: absolute; */
-background: #2F303A;
+  /* position: absolute; */
+  background: #2f303a;
 }
 
 .logo-txt {
@@ -103,6 +104,11 @@ background: #2F303A;
   left: 239px;
   top: 576px;
 } */
+
+.project{
+  border: 1px solid rgba(238, 238, 238, 1);
+  width: 370px;
+}
 
 .project > p {
   font-size: 16px;
@@ -149,7 +155,7 @@ background: #2F303A;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-position: absolute;
+  position: absolute;
   color: #ffffff;
 }
 
@@ -178,6 +184,6 @@ position: absolute;
   color: var(--third-color);
 }
 
-.address{
+.address {
   font-style: normal;
 }
